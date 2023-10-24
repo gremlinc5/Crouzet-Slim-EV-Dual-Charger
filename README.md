@@ -1,5 +1,5 @@
 # Crouzet Slim - EV Dual Charger
-New Crouzet Slim used to charge dual EVs with timing and sensing to stop charging at wanted kWh. Normal portable charging assets ca be used to charge from normal plugs.
+New Crouzet Slim used to charge dual EVs with timing and sensing to stop charging at wanted kWh. Normal portable charging assets can be used to charge from normal plugs.
 
 PLC software sense the main power and the single current of the two EV's plugs. The forth input is a dry contact to ask the PLC to mantain plugs powered like normal wall plugs.
 
@@ -7,7 +7,7 @@ The four relays are used in parallel to maximize the output current as Crouzet P
 
 In the menu system, measures can be seen in page 0. "A" and "B" buttons are used to move between pages, "plus" and "minus" are used to change values.
 
-Page 1 and 2 are for entering the main current histeresis values for charge stop and restart. Avoids main interruptor to open.
+Page 1 and 2 are for entering the main current histeresis values for charge stop and restart. Avoids mains power switch to open, reached mains maximum power capability.
 
 Page 3, 4 and 5 are for entering the EV1 energy needed and timing values.
 
@@ -21,6 +21,6 @@ Page 10 and 11 are used to set timing mode for EV charging, timing mean that cha
 
 Software is in 0.1 version beta "as is" with no warranty, you can simulate it with Crouzet Soft to understand if you like it.
 
-On field ChargeTransferFunction.csv needs to be reloaded in Function f(x) blocks, current block is in test mode with timings 1/10.
+On field ChargeTransferFunction.csv needs to be reloaded in Function f(x) blocks, current block is in test mode with timings 1/10 for test purposes.
 
-Protection addition is needed for EV charging, check with you electrician what you need to protect your home in your country.
+Protection addition is needed for EV charging, check with your electrician what you need to protect your home in your country.
