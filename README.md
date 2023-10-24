@@ -1,5 +1,5 @@
 # Crouzet Slim - EV Dual Charger
-New Crouzet Slim used to charge dual EVs with timing and sensing to stop charging at wanted kWh. Normal portable charging assets can be used to charge from normal plugs.
+New Crouzet Slim PLC used to charge dual EVs with timing and sensing to stop charging at wanted kWh. Normal portable charging assets can be used to charge from normal plugs.
 
 PLC software sense the main power and the single current of the two EV's plugs. The forth input is a dry contact to ask the PLC to mantain plugs powered like normal wall plugs.
 
