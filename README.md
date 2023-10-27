@@ -24,3 +24,5 @@ Software is in 0.1 version beta "as is" with no warranty, you can simulate it wi
 On field ChargeTransferFunction.csv needs to be reloaded in Function f(x) blocks, current block is in test mode with timings 1/10 for test purposes.
 
 Protection addition is needed for EV charging, check with your electrician what you need to protect your home in your country.
+
+Crouzet Soft used version 1.12.02
