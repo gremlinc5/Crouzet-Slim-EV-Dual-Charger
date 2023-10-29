@@ -19,7 +19,7 @@ Page 9 will set EV priority: first EV priority, second EV priority, same EV prio
 
 Page 10 and 11 are used to set timing mode for EV charging, timing mean that charge will start after Start Hour and stops at Stop Hour and will load only Needed kWh value to the EVs.
 
-Software is in 0.1 version beta "as is" with no warranty, you can simulate it with Crouzet Soft to understand if you like it.
+Software is in 0.2 version beta "as is" with no warranty, you can simulate it with Crouzet Soft to understand if you like it.
 
 On field ChargeTransferFunction.csv needs to be reloaded in Function f(x) blocks, current block is in test mode with timings 1/10 for test purposes.
 
