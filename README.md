@@ -3,7 +3,7 @@ New Crouzet Slim PLC used to charge dual EVs with timing and sensing to stop cha
 
 PLC software sense the main power and the single current of the two EV's plugs. The forth input is a dry contact to ask the PLC to mantain plugs powered like normal wall plugs, if PLC Digital Input is a passive one connect 24 volt to the dry contact instead GND.
 
-The four relays are used in parallel to maximize the output current as Crouzet PLC Slim Datasheets states: O1-O2 at 10 Amps and O2-O3 at 8 Amps. Search for right value if changed by Crouzet.
+The four relays are used in parallel to maximize the output current as Crouzet PLC Slim Datasheets states: O1-O2 at 10 Amps and O2-O3 at 8 Amps. Search for right value if changed by Crouzet. External Relays are recomended for currents higher than those listed, check with your electrician what is better.
 
 In the menu system, measures can be seen in page 0. "A" and "B" buttons are used to move between pages, "plus" and "minus" are used to change values.
 
