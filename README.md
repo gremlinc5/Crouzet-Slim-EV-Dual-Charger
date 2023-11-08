@@ -21,7 +21,7 @@ Page 10 and 11 are used to set timing mode for EV charging, timing mean that cha
 
 Software is in 0.2 version beta "as is" with no warranty, you can simulate it with Crouzet Soft to understand if you like it.
 
-On field ChargeTransferFunction.csv needs to be reloaded in Function f(x) blocks, current block is in test mode with timings 1/10 for test purposes.
+On field ChargeTransferFunction.csv is for normal usage timings, ChargeTransferFunctionTest.csv is for test purposes.
 
 Protection addition is needed for EV charging, check with your electrician what you need to protect your home in your country.
 
