@@ -7,17 +7,15 @@ The four relays are used in parallel to maximize the output current as Crouzet P
 
 In the menu system, measures can be seen in page 0. "A" and "B" buttons are used to move between pages, "plus" and "minus" are used to change values.
 
-Page 1 and 2 are for entering the main current histeresis values for charge stop and restart. Avoids mains power switch to open, reached mains maximum power capability.
+Page 1 is for seeing kWh to be charged remaining.
 
-Page 3, 4 and 5 are for entering the EV1 energy needed and timing values.
+Page 2 and 3 is the current histeresis for main power protection: MIN is the current at the charging process restart, MAX is the current at the current charging process pauses.
 
-Page 6, 7 and 8 are for entering the EV2 energy needed and timing values.
+Page 4 and 5 are the hours at the PLC will reload the kwh needed to the power counter for next night recharging.
 
-In page 3 and 6 stored needed value will be set when start hour is hit, or if you want to set more charges a day you can hit "OK" button to load needed value to current counter.
+Page 6 enable the timers, timer will charge to EVs only the requested energy and starts at start hour.
 
-Page 9 will set EV priority: first EV priority, second EV priority, same EV priority will cycle between EVs 1 hour each, all EVs priority will try to load EVs simultaneously.
-
-Page 10 and 11 are used to set timing mode for EV charging, timing mean that charge will start after Start Hour and stops at Stop Hour and will load only Needed kWh value to the EVs.
+Page 7 and 8 is probably the timed energy daily wanted to be charged to EV. Setting this parameter in Timing mode permit to not reach higher percentage of the battery unwanted, eg you can load battery to 80% not 100% all days.
 
 Software is in 0.2 version beta "as is" with no warranty, you can simulate it with Crouzet Soft to understand if you like it.
 
